@@ -1,0 +1,12 @@
+#main{
+    width: 1250px;
+    height: 600px;
+}
+
+#register{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: red;
+}
+

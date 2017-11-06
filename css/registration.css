@@ -1,0 +1,251 @@
+#wrapper{
+   min-width: 1250px;
+   min-height: 1480px;
+   height: auto;
+   width: auto;
+}
+
+#header{
+    width: 1261px;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px 5px #ff6600;
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#banner{
+    width: 800px;
+    height: 200px;
+    float: left;
+}
+
+#menu{
+    height: 62px;
+    width: 1260px;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#menu li a:hover{
+    color: purple;
+    text-decoration: overline underline;
+    font-size: 19px;
+}
+
+#id{
+    width: 1262px;
+    height: 360px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 5px gray;
+    margin-bottom: 10px;
+}
+/*
+#container{
+    width: 640px;
+    height: 900px;
+    float: left;
+    margin-left: 30px;
+    border: 5px solid red;
+    margin-top: 80px;
+ //   background-attachment: fixed;
+    opacity: .8;
+    background-repeat: no-repeat;
+}*/
+.main{
+    width:530px;
+    height:600px;
+    margin-top: -40px;
+    float: left;
+    text-align: center;
+}
+
+#register{
+    margin-top:50px; 
+    margin-bottom:90px;
+    width:600px;
+    height:1000px;
+    float: left;
+}
+
+.t{
+    font-size: 25px;
+    font-weight: bold;
+ //   color: white;
+}
+
+#login{
+ //   background-image: url('../Images/apple.jpg');
+ //   border-radius: 300px;
+    height: 1150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#form{
+    height: 200px;
+    width: 1000px;
+}
+
+table tr td input{
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.txt{
+    border: 5px solid #dadada;
+//    border-radius: 7px;
+//    background: transparent;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+textarea::placeholder{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+input[type="text"]{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+//    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+input[type="radio"]{
+ //   height: 40px;
+ //   width: 50px;
+//    background: black;
+}
+
+input[type="password"]{
+    height: 40px;
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+//    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+input[type="number"]{
+    height: 40px;
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  //  border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+input[type="email"]{
+    height: 40px;
+    width: 250px;
+    margin-left: 0px;
+//    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: darkblue;
+}
+
+textarea{
+    margin-left: 50px;
+    margin-top: 40px;
+///    border-radius: 20px;
+    text-align: center; 
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer .f_bg{
+    width: 625px;
+    height: 150px;
+    background-image: url('../Images/main.jpg');
+    border-radius: 100px;
+    float: left;
+}
+
+#footer #lsubfooter{
+    width: 625px;
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 50px 100px 100px 50px;
+    padding-top: 60px;
+}
+
+#footer #rsubfooter{
+    width: 625px;
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 100px 50px 50px 100px;
+    margin-bottom: 10px;
+}

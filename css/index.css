@@ -1,0 +1,168 @@
+.wrapper{
+   min-height: 1300px;
+   height: auto;
+   width: auto;
+}
+
+.header{
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo{
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.banner{
+    height: 200px;
+    float: left;
+    margin-left: -5%;
+    margin-top: -1%;
+}
+
+
+#menu{
+    height: 62px;
+    width: 1260px;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#menu li a:hover{
+    color: purple;
+    font-size: 19px;
+    text-decoration: underline overline;
+}
+
+.id1{
+    height: 360px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 5px gray;
+    margin-bottom: 10px;
+}
+
+.container{
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.main{
+    height: 750px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background: silver;
+}
+
+.left{
+    height:450px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 18px;
+    float: left;
+    background: white;
+}
+
+.mid1{
+    height:420px;
+    float: left;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.right{
+    height:400px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    background: white;
+}
+
+.mid2{
+    height:370px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    text-align: justify;
+}
+
+.bottom{
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 35px;
+    background: brown;
+    float: left;
+}
+
+.mid3{
+    height: 180px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+.footer .f_bg{
+    height: 150px;
+    background-image: url('../Images/main.jpg');
+    border-radius: 100px;
+    float: left;
+}
+
+.footer .lsubfooter{
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 50px 100px 100px 50px;
+    padding-top: 60px;
+}
+
+.footer .rsubfooter{
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 100px 50px 50px 100px;
+    margin-bottom: 10px;
+}

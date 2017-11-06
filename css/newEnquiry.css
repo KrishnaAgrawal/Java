@@ -1,0 +1,225 @@
+#wrapper{
+   min-width: 1250px;
+   min-height: 980px;
+   height: auto;
+   width: auto;
+}
+
+#header{
+    width: 1261px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px 5px #ff6600;
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#banner{
+    width: 800px;
+    height: 200px;
+    float: left;
+}
+
+#menu{
+    height: 62px;
+    width: 1260px;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#menu li a:hover{
+    color: purple;
+    text-decoration: underline overline;
+    font-size: 19px;
+}
+
+#id{
+    width: 1262px;
+    height: 360px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 5px gray;
+    margin-bottom: 10px;
+}
+
+#container{
+    width: 1260px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid red;
+    background-image: url('../Images/en3.png');
+    background-size: cover;
+ //   background-position: center;
+  //  background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#main{
+    width:600px;
+    height:650px;
+    margin-left: 500px;
+    padding-top: 75px;
+}
+
+table tr td input{
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a{
+    color: red;
+    margin-left:75px;
+}
+
+.txt{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    opacity: .8;
+}
+
+.txt:focus{
+    outline: none;
+    border-color: gray;
+    box-shadow: 0 0 10px 10px black;
+}
+
+input::placeholder{
+    color: black;
+    text-align: center;
+}
+
+textarea{
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 100px;
+    text-align: center; 
+    color: purple;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+textarea::placeholder{
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    height: 60px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center; 
+}
+
+input[type="email"]{
+    height: 60px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+input[type="number"]{
+    height: 60px;
+    width: 250px;
+    margin-bottom: -20px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+input[type="radio"]{
+    height: 40px;
+    width: 50px;
+    background: black;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 100px;
+    background-color: #dadada;
+    color: blue;
+    opacity: .9;
+}
+
+#footer{
+    width: 1250px;
+    height: 150px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#footer .f_bg{
+    width: 625px;
+    height: 150px;
+    background-image: url('../Images/main.jpg');
+    border-radius: 100px;
+    float: left;
+}
+
+#footer #lsubfooter{
+    width: 625px;
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 50px 100px 100px 50px;
+    padding-top: 60px;
+}
+
+#footer #rsubfooter{
+    width: 625px;
+    height: 150px;
+    background: gray;
+    color: white;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .6;
+    border-radius: 100px 50px 50px 100px;
+    margin-bottom: 10px;
+}

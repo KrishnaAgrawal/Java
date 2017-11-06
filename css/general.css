@@ -1,0 +1,22 @@
+#wrapper{
+   height: 1250px;
+   width: 800px;
+}
+
+#header{
+    width: 1250px;
+    height: 200px;
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+#banner{
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+
