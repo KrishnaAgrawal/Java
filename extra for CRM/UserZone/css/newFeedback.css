@@ -1,0 +1,213 @@
+#wrapper{
+   min-width: 1250px;
+   min-height: 1300px;
+   height: auto;
+   width: auto;
+}
+
+#header{
+    width: 1261px;
+    height: 200px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;    
+    box-shadow: 0 5px 5px 5px #ff6600;
+
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#banner{
+    width: 800px;
+    height: 200px;
+    float: left;
+}
+
+#container1{
+    margin-top: 10px;
+    width: 1260px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+#date{
+    width: 630px;
+    height: 100px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: -295px;
+    border-radius: 20px 0 0 0;
+}
+
+#userName{
+    width: 630px;
+    height: 100px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    border-radius: 0 20px 0 0;
+}
+
+#menu{
+    height: 62px;
+    width: 1260px;
+    margin: 0 auto;
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0  0 20px 20px;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#menu li a:hover{
+    color: purple;
+    font-size: 19px;
+    text-decoration: underline overline;
+}
+
+#main{
+    width: 1260px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 110px;
+    background-image: url('../..//Images/review.jpg');
+ //   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login{
+    width: 1260px;
+    height: 550px;
+}
+
+
+
+input[type="submit"]{
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    opacity: .5;
+    border: 5px solid gray;
+}
+
+.txt{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+textarea{
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    opacity: .8;
+    background: transparent;
+    
+}
+
+.txt:focus{
+    outline: none;
+    border-color: gray;
+    box-shadow: 0 0 10px 10px gray;
+}
+
+textarea::placeholder{
+    color: black;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#textarea:focus{
+    box-shadow: 0 0 10px 10px navy;
+}
+
+#reviews{
+    width: 1260px;
+    min-height: 350px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: -350px;
+}
+
+#footer{
+    width: 1250px;
+    height: 150px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#footer .f_bg{
+    width: 625px;
+    height: 150px;
+    background-image: url('../..//Images/main.jpg');
+    border-radius: 100px;
+    float: left;
+}
+
+#footer #lsubfooter{
+    width: 625px;
+    height: 150px;
+    background-color: black;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+    border-radius: 50px 100px 100px 50px;
+    padding-top: 60px;
+}
+
+#footer #rsubfooter{
+    width: 625px;
+    height: 150px;
+    background-color: black;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+    border-radius: 100px 50px 50px 100px;
+    margin-bottom: 10px;
+}

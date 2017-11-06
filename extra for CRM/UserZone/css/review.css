@@ -1,0 +1,277 @@
+#wrapper{
+   min-width: 1250px;
+   min-height: 1300px;
+   height: auto;
+   width: auto;
+}
+
+#header{
+    width: 1261px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#banner{
+    width: 800px;
+    height: 200px;
+    float: left;
+}
+
+#container1{
+    margin-top: 10px;
+    width: 1260px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+#date{
+    width: 630px;
+    height: 100px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: -295px;
+    border-radius: 20px 0 0 0;
+}
+
+#userName{
+    width: 630px;
+    height: 100px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    border-radius: 0 20px 0 0;
+}
+
+#menu{
+    height: 62px;
+    width: 1260px;
+    margin: 0 auto;
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0  0 20px 20px;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#menu li a:hover{
+    color: purple;
+    font-size: 19px;
+}
+
+#container{
+    width: 1260px;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url('../..//Images/review.jpg');
+//    background-attachment: fixed;
+//    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login{
+    width: 1260px;
+    height: 550px;
+}
+
+#main{
+    width:1260px;
+    height:350px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+table tr{
+    font-size: 20px;
+}
+
+table tr td{
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-left: 130px;
+    margin-bottom: 150px;
+    opacity: .5;
+    border: 5px solid gray;
+}
+
+.txt{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+textarea{
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 10px solid gray;
+}
+
+.txt:focus{
+    outline: none;
+    border-color: gray;
+    box-shadow: 0 0 10px 10px gray;
+}
+
+textarea::placeholder{
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: .8;
+}
+
+#textarea:focus{
+    box-shadow: 0 0 10px 10px navy;
+}
+
+#reviews{
+    width: 1260px;
+    min-height: 550px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: -350px;
+}
+
+#footer{
+    width: 1250px;
+    height: 150px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 300px;
+    margin-bottom: -200px;
+}
+
+#footer .f_bg{
+    width: 625px;
+    height: 150px;
+    background-image: url('../../Images/main.jpg');
+    border-radius: 100px;
+    float: left;
+}
+
+#footer #lsubfooter{
+    width: 625px;
+    height: 150px;
+    background-color: black;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+    border-radius: 50px 100px 100px 50px;
+    padding-top: 60px;
+}
+
+#footer #rsubfooter{
+    width: 625px;
+    height: 150px;
+    background-color: black;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+    border-radius: 100px 50px 50px 100px;
+    margin-bottom: 10px;
+}
+
+// Feedback code goes here....
+/*
+#register{
+    border: 5px solid red;
+    width: 600px;
+    height: 600px;
+    float: right;
+    border: 20px solid red;
+}
+
+#back{
+    border-radius: 300px;
+    width:600px;
+    height:450px;
+    background-image: radial-gradient(pink 30% ,blue 90%);
+    opacity: .9;
+    margin: 0 auto;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    color: purple;
+    margin-left: 50px;
+}
+
+.txt{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.txt:focus{
+    outline: none;
+    border-color: navy;
+    box-shadow: 0 0 10px 10px navy;
+}
+
+textarea::placeholder{
+    color: blue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#textarea:focus{
+    box-shadow: 0 0 10px 10px navy;
+}
+*/
